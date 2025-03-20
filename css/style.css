@@ -1,14 +1,17 @@
 /*** Spinner Start ***/
 
 *{
-    font-family: "Saira", sans-serif;
+    /* font-family: "Saira", sans-serif; */
+    /* font-family: "Arimo", sans-serif; */
+    font-family: "Jost", sans-serif;
     /* background-color: black; */
 }
 
-/* .text-white.display-1{
-    font-family: 'Times New Roman', Times, serif !important;
-    font-style: italic !important;
-} */
+.text-white.display-1{
+    font-family: "Tektur", sans-serif;
+    font-size: 70px;
+    /* font-style: italic !important; */
+}
 
 body{
     background-color: black;
@@ -27,11 +30,13 @@ body h1{
     color: black !important;
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover,.btn.bg-primary.text-white:hover,.bg-primary.text-white.rounded:hover{
     color: #ffffff !important;
-    background-color: #6554AF;
+    background-color: #6554AF !important;
     box-shadow: 1px 1px 10px 0px #93d9a3d6;
 }
+
+
 
 #spinner {
     opacity: 0;
@@ -193,6 +198,11 @@ body h1{
     visibility: visible;
     transition: .5s;
     opacity: 1;
+}
+
+.nav-item.nav-link:hover{
+    background-color: #6554AF;
+    border-radius: 10px;
 }
 
 /*** Navbar End ***/
