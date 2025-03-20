@@ -42,7 +42,7 @@ body h1{
 }
 
 .companyLogo{
-    height: 100px;
+    height: 125px;
 }
 
 .btn-secondary{
@@ -188,9 +188,35 @@ body h1{
 }
 .container-fluid.bg-secondary{
     /* height: fit-content ; */
-    /* outline: 2px solid blueviolet; */
     /* background-color: black !important; */
 }
+
+/* .navbar-nav{
+ outline: 2px solid rgb(13, 7, 19) !important;
+ font-size: 100px !important;
+} */
+
+#navbarCollapse{
+    /* outline: 2px solid rgb(13, 7, 19) !important; */
+    /* font-size: 90px; */
+}
+
+
+.container-fluid.blog.py-5.mb-5>.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.row.g-5.justify-content-center{
+    max-width: 1100px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
 
 .navbar .navbar-nav {
     padding: 15px 0;
@@ -665,6 +691,10 @@ body h1{
     color: #892cdc !important;
 }
 
+.btn.btn-square.btn-secondary.text-white.rounded-circle{
+    background-color: white !important;
+}
+
 .team-carousel .owl-nav .owl-prev,
 .team-carousel .owl-nav .owl-next {
     width: 56px;
@@ -754,6 +784,8 @@ body h1{
     max-width: 1100px;
     /* outline: 2px solid red; */
 }
+
+
 .contact-detail::before {
     position: absolute;
     content: "";
