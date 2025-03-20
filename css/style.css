@@ -1,5 +1,25 @@
 /*** Spinner Start ***/
 
+/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap'); */
+
+.text-white.fw-bold.d-block {
+    font-family: "Tektur", sans-serif;
+    /* outline: 1px solid red; */
+}
+.text-secondary-name{
+    font-family: "Tektur", sans-serif;
+    /* font-style: italic; */
+    color: black !important;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    /* margin-right: 0px; */
+    /* outline: 1px solid green; */
+}
+
+
 *{
     /* font-family: "Saira", sans-serif; */
     /* font-family: "Arimo", sans-serif; */
@@ -21,22 +41,40 @@ body h1{
     color: #6554AF;
 }
 
+.companyLogo{
+    height: 100px;
+}
+
 .btn-secondary{
     border: none;
     background-color: #892cdc ;
 }
 
-.btn-secondary.text-white{
+.btn.bg-primary.text-white{
+    background-color: white !important;
+}
+
+.btn-secondary.text-white, .btn.bg-primary.text-white{
     color: black !important;
 }
 
-.btn-secondary:hover,.btn.bg-primary.text-white:hover,.bg-primary.text-white.rounded:hover{
+.btn-secondary:hover,.btn.bg-primary.text-white:hover{
     color: #ffffff !important;
     background-color: #6554AF !important;
     box-shadow: 1px 1px 10px 0px #93d9a3d6;
 }
 
+.btn.bg-primary.text-white:hover{
+    background-color: #892cdc !important;
+}
 
+.rounded-circle{
+    background-color: #892cdc !important;
+}
+
+.btn-light.nav-fill.btn.btn-square.rounded-circle{
+    background-color: white !important;
+}
 
 #spinner {
     opacity: 0;
@@ -736,6 +774,10 @@ body h1{
 
 .contact-form {
     background: #fefbf6;
+}
+
+.rounded{
+    background-color: #6554AF;
 }
 
 /*** Contact End ***/
