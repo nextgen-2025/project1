@@ -12,6 +12,10 @@
     color: black !important;
 }
 
+.text-white.fw-bold.d-block>.text-secondary{
+    font-family: "Tektur", sans-serif;
+}
+
 .navbar-brand{
     display: flex;
     align-items: center;
