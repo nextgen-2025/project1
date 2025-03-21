@@ -3,17 +3,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap'); */
 
 .text-white.fw-bold.d-block {
-  font-family: 'Tektur', sans-serif;
+  font-family: "Tektur", sans-serif;
   /* outline: 1px solid red; */
 }
 .text-secondary-name {
-  font-family: 'Tektur', sans-serif;
+  font-family: "Tektur", sans-serif;
   /* font-style: italic; */
   color: black !important;
 }
 
 .text-white.fw-bold.d-block > .text-secondary {
-  font-family: 'Tektur', sans-serif;
+  font-family: "Tektur", sans-serif;
 }
 
 .navbar-brand {
@@ -26,12 +26,12 @@
 * {
   /* font-family: "Saira", sans-serif; */
   /* font-family: "Arimo", sans-serif; */
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   /* background-color: black; */
 }
 
 .text-white.display-1 {
-  font-family: 'Tektur', sans-serif;
+  font-family: "Tektur", sans-serif;
   font-size: 70px;
   /* font-style: italic !important; */
 }
@@ -213,12 +213,12 @@ body h1 {
   justify-content: center;
 }
 
-.row.g-5.justify-content-center {
+/* .row.g-5.justify-content-center {
   max-width: 1100px;
-  /* display: flex;
-    align-items: center;
-    justify-content: center; */
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 .navbar .navbar-nav {
   padding: 15px 0;
@@ -239,8 +239,8 @@ body h1 {
 
 .navbar .dropdown-toggle::after {
   border: none;
-  content: '\f107';
-  font-family: 'font awesome 5 free';
+  content: "\f107";
+  font-family: "font awesome 5 free";
   font-weight: 900;
   vertical-align: middle;
   margin-left: 8px;
@@ -279,7 +279,7 @@ body h1 {
 }
 
 .carousel-item::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -464,7 +464,7 @@ ul {
 
 .services-content::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 0;
   top: 0;
@@ -515,7 +515,7 @@ ul {
 }
 
 .project-img::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 150px;
   height: 150px;
@@ -529,7 +529,7 @@ ul {
 }
 
 .project-img::after {
-  content: '';
+  content: "";
   width: 150px;
   height: 150px;
   position: absolute;
@@ -632,7 +632,7 @@ ul {
 .team-content::before {
   height: 200px;
   display: block;
-  content: '';
+  content: "";
   position: relative;
   top: -101px;
   background: var(--bs-secondary);
@@ -791,7 +791,7 @@ ul {
 
 .contact-detail::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   top: 0;
@@ -838,10 +838,6 @@ ul {
 
 /*** Footer End ***/
 
-
-
-
-
 /* carousel-btn */
 @media (max-width: 425px) {
   .carousel-btn .carousel-content-btn1,
@@ -856,6 +852,3 @@ ul {
     margin: 0 !important;
   }
 }
-
-
-
