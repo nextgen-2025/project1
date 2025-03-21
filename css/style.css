@@ -228,8 +228,9 @@ body h1 {
 .navbar .navbar-nav .nav-link {
   padding: 10px;
   color: var(--bs-white);
-  font-size: 18px;
+  font-size: 20px;
   outline: none;
+  font-weight: 500;
 }
 
 .navbar .navbar-nav .nav-link:hover,
