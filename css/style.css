@@ -858,13 +858,13 @@ ul {
 
 /* India Map Style */
 .indiaMap {
-  background: url('/img/india.png') no-repeat center center;
+  background: url('/img/map2.png') no-repeat center center;
   position: relative;
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
   padding: 50px 0; /* Adjust spacing */
-  background-size: 90%;
+  background-size: 100%;
 }
 
 
