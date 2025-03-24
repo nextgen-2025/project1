@@ -949,3 +949,18 @@ ul {
 .main-nav{
   background: linear-gradient(to right, #5690ec, #a855f7);
 }
+
+.about-wrapper{
+  position: relative;
+}
+.about-overlay{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28rem;
+  color: rgba(255, 255, 255, 0.158);
+}
+.img-conatiner{
+  margin-left: 2.4rem;
+}
