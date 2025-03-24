@@ -853,3 +853,71 @@ ul {
     margin: 0 !important;
   }
 }
+
+
+
+/* India Map Style */
+.indiaMap {
+  background: url('/img/india.png') no-repeat center center;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+  padding: 50px 0; /* Adjust spacing */
+  background-size: 90%;
+}
+
+
+.indiaMap::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay to improve readability */
+  z-index: -1;
+}
+
+.location {
+  position: sticky;
+  width: 15px;
+  height: 15px;
+  background-color: #ff0; /* Yellow glow */
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ff0, 0 0 20px #ff0;
+  animation: glow 1.5s infinite alternate;
+  cursor: pointer;
+  z-index: 0;
+}
+
+/* Glow Animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #ff0, 0 0 10px #ff0;
+  }
+  100% {
+    box-shadow: 0 0 15px #ff0, 0 0 30px #ff0;
+  }
+}
+
+/* Optional: Tooltip on hover */
+.location::after {
+  content: attr(data-name);
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  display: none;
+}
+
+.location:hover::after {
+  display: block;
+}
+
+/* India Map Style end */
