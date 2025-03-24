@@ -795,11 +795,9 @@ ul {
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(#bde8ca, #9fdfcdb0),
-    url(../img/background.jpg) center center no-repeat;
-  background-size: cover;
   border-radius: 10px;
   z-index: -1;
+  border: 1px solid #474747;
 }
 
 .contact-map {
