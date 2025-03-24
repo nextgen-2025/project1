@@ -945,3 +945,7 @@ ul {
 .hero-btn:hover{
   filter: brightness(1.1);
 }
+
+.main-nav{
+  background: linear-gradient(to right, #5690ec, #a855f7);
+}
