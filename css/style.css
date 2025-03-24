@@ -9,7 +9,7 @@
 .text-secondary-name {
   font-family: "Tektur", sans-serif;
   /* font-style: italic; */
-  color: black !important;
+  color: rgb(3, 3, 3) !important;
 }
 
 .text-white.fw-bold.d-block > .text-secondary {
