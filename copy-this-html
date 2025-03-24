@@ -1,0 +1,158 @@
+<div
+              class="col-md-6 col-lg-4 wow fadeIn"
+              data-wow-delay=".3s"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div class="services-item bg-light">
+                <div class="p-3 text-center services-content">
+                  <div class="services-content-icon">
+                    <i
+                      class="fa fa-bolt fa-7x mb-4 text-primary"
+                    ></i>
+                    <h4 class="mb-3">Low Latency</h4>
+                    <p class="mb-4" style="text-align: justify">
+                      Reduce latency and enhance application performance with
+                      our strategically located edge data centers. Our
+                      infrastructure ensures faster data processing, minimal
+                      delays, and seamless connectivity, delivering optimal
+                      speed and efficiency for your business operations.
+                    </p>
+                    <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 wow fadeIn"
+              data-wow-delay=".5s"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div class="services-item bg-light">
+                <div class="p-3 text-center services-content">
+                  <div class="services-content-icon">
+                    <i class="fa fa-leaf fa-7x mb-4 text-primary"></i>
+                    <h4 class="mb-3">Energy Efficiency</h4>
+                    <p class="mb-4" style="text-align: justify">
+                      Reduce operational costs and minimize environmental impact
+                      with our energy-efficient data center designs. Our
+                      sustainable infrastructure optimizes power usage, and
+                      enhances performance, ensuring cost-effective and
+                      eco-friendly operations without compromising efficiency or
+                      reliability.
+                    </p>
+                    <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 wow fadeIn;"
+              data-wow-delay=".7s"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div class="services-item bg-light">
+                <div class="p-3 text-center services-content">
+                  <div class="services-content-icon">
+                    <i class="fas fa-shield-alt fa-7x mb-4 text-primary"></i>
+                    <h4 class="mb-3">Enhanced Security</h4>
+                    <p class="mb-4" style="text-align: justify">
+                      Enhance security with private data storage and robust
+                      protection measures. Our advanced infrastructure
+                      safeguards critical data with encryption, access controls,
+                      and real-time threat monitoring, ensuring reliability, and
+                      compliance.
+                    </p>
+                    <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 wow fadeIn"
+              data-wow-delay=".3s"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div class="services-item bg-light">
+                <div class="p-3 text-center services-content">
+                  <div class="services-content-icon">
+                    <i class="fa fa-object-group fa-7x mb-4 text-primary"></i>
+                    <h4 class="mb-3">Scalability</h4>
+                    <p class="mb-4" style="text-align: justify">
+                      Scale your infrastructure effortlessly with our flexible
+                      and scalable solutions. Adapt to growing demands with
+                      seamless expansion, optimized performance, and
+                      cost-effective resource management.
+                    </p>
+                    <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 wow fadeIn"
+              data-wow-delay=".5s"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div class="services-item bg-light">
+                <div class="p-3 text-center services-content">
+                  <div class="services-content-icon">
+                    <i class="fa fa-globe fa-7x mb-4 text-primary"></i>
+                    <h4 class="mb-3">Sustainable Digital Transformation</h4>
+                    <p class="mb-4" style="text-align: justify">
+                      Drive sustainable digital transformation with eco-friendly
+                      innovations and responsible practices. Our solutions
+                      optimize energy efficiency, and ensuring high performance
+                      and scalability for a greener, smarter future.
+                    </p>
+                    <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 wow fadeIn"
+              data-wow-delay=".7s"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div class="services-item bg-light">
+                <div class="p-3 text-center services-content">
+                  <div class="services-content-icon">
+                    <i
+                      class="fa fa-cloud fa-7x mb-4 text-primary"
+                    ></i>
+                    <h4 class="mb-3">Time-to-Market Advantage</h4>
+                    <p class="mb-4" style="text-align: justify">
+                      Accelerate your time-to-market with our agile
+                      infrastructure. Deploy services in chosen markets within
+                      months, ensuring rapid expansion, optimized performance,
+                      and a competitive edge in the evolving digital landscape.
+                    </p>
+                    <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div> 
