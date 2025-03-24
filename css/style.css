@@ -266,10 +266,30 @@ body h1 {
   opacity: 1;
 }
 
+
+.nav-item.nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-item.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 10px;
+  left: 50%;
+  background: #494753;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
 .nav-item.nav-link:hover {
-  /* background-color: #6554af; */
-  /* border-radius: 10px; */
-  text-decoration: underline;
+  transform: translateY(-2px);
+}
+
+.nav-item.nav-link:hover::after {
+  width: 100%;
 }
 
 /*** Navbar End ***/
