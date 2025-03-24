@@ -309,14 +309,14 @@ body h1 {
   position: absolute;
   top: 50%;
   left: 0;
-  background: var(--bs-primary);
+  background: linear-gradient(to right, #4685eb83, #4c2f67);
   border-radius: 0 50px 50px 0;
   opacity: 1;
 }
 
 .carousel-control-prev:hover {
-  background: var(--bs-secondary);
-  transition: 0.8s;
+  background: transparent;
+  transition: 0.4s;
 }
 
 .carousel-control-next {
@@ -325,14 +325,14 @@ body h1 {
   position: absolute;
   top: 50%;
   right: 0;
-  background: var(--bs-primary);
+  background: linear-gradient(to right, #5083d5, #4c2f678d);
   border-radius: 50px 0 0 50px;
   opacity: 1;
 }
 
 .carousel-control-next:hover {
-  background: var(--bs-secondary);
-  transition: 0.8s;
+  background: transparent;
+  transition: 0.4s;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn1 {
