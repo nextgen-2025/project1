@@ -18,9 +18,8 @@
 
 .navbar-brand {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  /* margin-right: 0px; */
-  /* outline: 1px solid green; */
 }
 
 * {
@@ -198,6 +197,7 @@ body h1 {
 .navbar .navbar-nav {
   padding: 15px 0;
   /* background-color: transparent !important; */
+  text-align: right;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -1141,4 +1141,14 @@ ul {
 
 .form-control{
   background-color: #242429;
+}
+
+.text-iq{
+  color: #008b00eb;
+}
+.logo-slug{
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: -10px;
 }
