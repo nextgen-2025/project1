@@ -353,20 +353,17 @@ body h1 {
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2 {
-  background: var(--bs-primary);
-  color: var(--bs-white);
+  background: white;
+  color: #111;
   opacity: 1;
   border: 0;
   border-radius: 20px;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2:hover {
-  background: var(--bs-secondary);
-  color: var(--bs-dark);
-  border: 0;
-  opacity: 1;
-  transition: 1s;
-  border-radius: 20px;
+  background:rgba(230, 230, 230, 0.197);
+  filter: brightness(1.1);
+  color: #ffffff;
 }
 
 #carouselId .carousel-indicators li {
@@ -922,3 +919,29 @@ ul {
 }
 
 /* India Map Style end */
+
+
+.img-responsive{
+  opacity: 0.5;
+}
+
+.text-gr-title {
+    font-weight: bold;
+    background: linear-gradient(to right, #60a5fa, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-btn{
+  font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #3b82f6, #a855f7);
+    border: none;
+    border-radius: 999px; /* Fully rounded */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btn:hover{
+  filter: brightness(1.1);
+}
