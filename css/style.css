@@ -12,9 +12,13 @@
   color: rgb(3, 3, 3) !important;
 }
 
-.text-white.fw-bold.d-block > .text-secondary {
-  font-family: "Tektur", sans-serif;
+.col-lg-6.col-md-6 .text-white {
+  font-family: "Jost", sans-serif;
 }
+
+/* .text-white.fw-bold.d-block {
+  font-family: "Tektur", sans-serif;
+} */
 
 .navbar-brand {
   display: flex;
