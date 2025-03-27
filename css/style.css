@@ -4,12 +4,15 @@
 
 .text-white.fw-bold.d-block {
   font-family: "Tektur", sans-serif;
+ 
+  
   /* outline: 1px solid red; */
 }
 .text-secondary-name {
   font-family: "Tektur", sans-serif;
   /* font-style: italic; */
-  color: rgb(3, 3, 3) !important;
+  
+  color: rgb(242, 234, 234) !important;
 }
 
 .col-lg-6.col-md-6 .text-white {
